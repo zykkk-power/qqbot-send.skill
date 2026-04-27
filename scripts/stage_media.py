@@ -6,7 +6,6 @@ from pathlib import Path
 MAX_SIZE = 10 * 1024 * 1024
 DEST_DIR = Path.home() / '.openclaw' / 'media' / 'qqbot'
 
-
 def main() -> int:
     if len(sys.argv) != 2:
         print('usage: python stage_media.py <source_path>', file=sys.stderr)
